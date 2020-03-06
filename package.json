@@ -1,7 +1,7 @@
 {
   "name": "todo",
   "version": "0.1.0",
-  "homepage": "https://thisisjasonjafari.github.io/maktabkhoone-todo",
+  "homepage": "https://iammohammadreza.github.io/TOdoApp",
   "private": true,
   "dependencies": {
     "css": "^2.2.4",
@@ -17,7 +17,7 @@
     "style": "^0.0.3"
   },
   "scripts": {
-    "predeploy": "yarn run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
